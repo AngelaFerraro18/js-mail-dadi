@@ -10,16 +10,23 @@ console.log(writeEmail);
 let successEmail = 'Ottimo! Sei presente nella lista della festa, benvenuto!';
 let errorEmail = 'Mi dispiace, la tua email non è presente nella lista!';
 
+
+
 // creo un ciclo for per controllare che l'email scritta dall'utente sia presente nella lista
+
+let isEmailPresent = false;
+
 for (let i = 0; i < emailList.length; i++){
     
-    const listItem = emailList[i];
-    console.log(listItem);
-
-    if (listItem === writeEmail){
-        
-        console.log(successEmail);
-        break;
-    } 
+    if (emailList[i] === writeEmail){
+        isEmailPresent = true;
+    }
 }
-console.log(errorEmail);   
+
+if (isEmailPresent){
+    
+    console.log(successEmail);
+} else {
+
+    console.log(errorEmail);
+}
