@@ -21,6 +21,6 @@ Non è consentito usare nessun metodo proprio degli array (come includes, per es
 - all'interno dell'array andrò a inserire le email dei partecipanti alla festa
 - per controllare la presenza dell'email nella lista, userò un ciclo for
 - SE l'email è presente nella lista
-    - stamperò il messaggio di successo ---> via interpolazione
+    - stamperò il messaggio di successo
 - ALTRIMENTI 
-    - stamperò il messaggio di insuccesso dell'operazione ---> via interpolazione
+    - stamperò il messaggio di insuccesso dell'operazione 
