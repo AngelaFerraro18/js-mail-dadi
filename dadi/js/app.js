@@ -1,7 +1,7 @@
 
 // Inizializzo due variabili che vanno ad indicare l'umano e il computer con un valore numerico random tra 1 e 6
-let userDice = Math.floor(6 * Math.random()) + 1;
-let computerDice = Math.floor(6 * Math.random()) + 1;
+const userDice = Math.floor(6 * Math.random()) + 1;
+const computerDice = Math.floor(6 * Math.random()) + 1;
 
 // vado a scrivere le possibilità che possono verificarsi
 if (userDice > computerDice) {
