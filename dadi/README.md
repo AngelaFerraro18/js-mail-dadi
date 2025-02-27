@@ -18,7 +18,6 @@ Invece di generare il numero random per l'utente, chiedilo con un prompt!
 *Pseudocodice*
 
 - andrò a creare due variabili, una per giocatore
-- essendo un ripetersi di tiri per stabilire la vittoria, creerò un ciclo for
 - SE il valore del primo giocatore sarà maggiore dell'altro
     - vincerà il primo giocatore e verrà visualizzato il messaggio che decreta la vittoria e il punteggio dell'avversario
 - SE il valore del secondo giocatore sarà maggiore dell'altro
